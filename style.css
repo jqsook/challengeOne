@@ -1,0 +1,14 @@
+* {
+  outline: 1px solid red;
+}
+:root {
+  --theme: #07ab80;
+  --theme-gray: #e5e5e5;
+  --btn-grn: #07ab80;
+}
+.bg-theme {
+  background-color: var(--theme);
+}
+.bg-theme {
+  background-color: var(--theme-gray);
+}
