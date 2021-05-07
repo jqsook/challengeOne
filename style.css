@@ -3,12 +3,29 @@
 }
 :root {
   --theme: #07ab80;
-  --theme-gray: #e5e5e5;
+  --theme-gray: #5b636e;
+  --theme-white: #e5e5e5;
+  --card-white: #ffffff;
   --btn-grn: #07ab80;
 }
+
 .bg-theme {
   background-color: var(--theme);
 }
-.bg-theme {
+.bg-theme-gray {
   background-color: var(--theme-gray);
+}
+.bg-theme-white {
+  background-color: var(--theme-white);
+}
+.bg-card-white {
+  background-color: var(--card-white);
+}
+.btn-card {
+  background-color: var(--theme-white);
+  color: var(--theme);
+}
+.btn-more {
+  background-color: var(--theme);
+  color: var(--theme-white);
 }

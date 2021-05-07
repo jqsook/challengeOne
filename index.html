@@ -16,60 +16,91 @@
 </head>
 
 <body>
-    
-    <header class="text-white">
-        <div><i class="assets/img/Vector.png"></i> LOREM IPSUM</div>
+
+    <header class="text-white bg-theme">
+        <div><img src="assets/img/Vector.png" alt=""> LOREM IPSUM</div>
     </header>
     
     <main>
 
         <!-- Top container (gray) with a form on the L. an image on the R. side (with text) -->
-        <div class="container-fluid">
+        <div class="container-fluid bg-theme-gray">
         <div class="row">
             <div class="col-4">
-                <form>
-                    <div class="form-group">
-                        <input type="input" class="form-control" id="exampleFormControlInput1" placeholder="NAME">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                    </div>
-                    <form>
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="PHONE">
+                <div class="card">
+                    <h5 class="card-header bg-theme-gray">Send me your Gn5 Viper</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Right Now!!!!!</h5>
+                        <p class="card-text"><form>
+                            <div class="form-group">
+                                <input type="input" class="form-control" id="exampleFormControlInput1" placeholder="NAME">
                             </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="EXT.">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
                             </div>
-                        </div>
-                    </form>
-                    <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"rows="3"></textarea>
+                            <form>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="PHONE">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="EXT.">
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="by checking this box I agree to the terms of the Lorem Ipsum dolor">
+                                    Default checkbox
+                                </label>
+                            </div>
+                        </form></p>
+                        <a href="#" class="btn-card">Submit</a>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="by checking this box I agree to the terms of the Lorem Ipsum dolor">
-                            Default checkbox
-                        </label>
-                    </div>
-                </form>
+                </div>
             </div>
             <div class="col-8">
-                <div>Text over an image</div>
-                <div><img src="" alt=""></div>
+            <div class="card bg-dark text-white">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7L8kSrpY6zM" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Text over an image</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                        This content is a little bit longer.</p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                </div>
             </div>
-
+            </div>
         </div>
 
         </div>
-<!-- 
+
         <!-- Middle container (green) with overflowing card-->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
-                    <div>Looks like Lorem</div>
-                    <div class="card">Overflowing card</div>
+                <div class="col-12 bg-theme card w-75">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                <!-- this is the overflow card maybe its own div???-->
+                    <div class="card w-50">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><img src="assets/img/wrench.png" alt=""> IT HAS 2000HP!!</li>
+                                <li class="list-group-item"> <img src="assets/img/car.png" alt=""> 2000 IS ALOT!!!</li>
+                                <li class="list-group-item"><img src="assets/img/phone-in-talk.png" alt=""> TOTALLY WORTH IT</li>
+                                <li class="list-group-item"><img src="assets/img/chart-bubble.png" alt=""> ENOUGH HP EVEN SANTA</li>
+                                <li class="list-group-item"><img src="assets/img/flash-circle.png" alt=""> IS JEALOUSE!!!!!!!!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -77,23 +108,69 @@
         <!-- Middle container (white)  Image on the L. with another group of text with icon-->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-4">Long image on L</div>
-                <div class="col-8">Text with icon and button</div>
-                <button>MORE</button>
+                <div class="col-4"><img src="assets/img/Rec-tall.png" alt=""></div>
+                
+                <div class="col-8 card text-right" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-more">Go somewhere</a>
+                        </div>
+                </div>
+                </div>
             </div>
-        </div>
+
 
         <!-- Lower container with 3 cards -->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-4">L. Card</div>
-                <div class="col-4">Middle card</div>
-                <div class="col-4">R. card</div>
+                <div class="col-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="assets/img/star-circle.png" alt="">
+                                    <img src="assets/img/star-circle.png" alt="">
+                                    <img src="assets/img/star-circle.png" alt=""></h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                    content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Lower Container Green -->
+        <div class="container-fluid bg-theme">
+            <div class="row">
+                <p>Lorem big I guess?</p>
+                <p>Lorem small </p>
+                <div class="col-12"></div>
             </div>
         </div>
 
         <!-- Footer  looks like a white background with a green center block -->
-         -->
+      <footer class="bg-card-white">
+          <div class="bg-theme">Long thin green box</div>
+      </footer>
 
 
 </main>
