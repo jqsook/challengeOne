@@ -8,7 +8,6 @@
   --card-white: #ffffff;
   --btn-grn: #07ab80;
 }
-
 .bg-theme {
   background-color: var(--theme);
 }
@@ -28,4 +27,7 @@
 .btn-more {
   background-color: var(--theme);
   color: var(--theme-white);
+}
+.i-clr {
+  color: var(--theme);
 }
