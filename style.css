@@ -1,12 +1,26 @@
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 :root {
   --theme: #07ab80;
   --theme-gray: #5b636e;
   --theme-white: #e5e5e5;
   --card-white: #ffffff;
   --btn-grn: #07ab80;
+}
+
+body {
+  border: 0;
+  overflow-x: hidden;
+}
+.form-phone {
+  flex-wrap: nowrap;
+}
+.form-chkbx {
+  font-size: small;
+}
+.hp-form {
+  border-color: var(--theme-gray);
 }
 .bg-theme {
   background-color: var(--theme);
@@ -23,8 +37,31 @@
 .btn-card {
   background-color: var(--theme-white);
   color: var(--theme);
+  width: fit-content;
 }
 .btn-more {
   background-color: var(--theme);
-  color: var(--theme-white);
+  font-size: small;
+  width: 18%;
+}
+.text-form {
+  color: var(--theme);
+}
+.input-form {
+  margin: 2rem;
+}
+.card-head {
+  font-size: medium;
+  /* custom font should go here */
+}
+.cta-box {
+  position: absolute;
+  top: 0;
+}
+.hero {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
