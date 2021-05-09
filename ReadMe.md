@@ -1,28 +1,19 @@
-Utilizes custom font on at least one element
-
-<!-- Sticky Navbar on scroll -->
-
-The Text Over Image is hidden on mobile (@media Rule)
-The Card spills out of the row on medium and larger screens
-Must use external Icon library (FontAwesome, Material Icons, etc.)
+The Text Over Image is hidden on mobile (@media Rule) <!--Use this rule on the smaller image?-->
 Specified elements order changes based on screen size
-Cards are vertically centered with the center card larger for emphasis
-Appropriate use of Margins and Padding
+The Card spills out of the row on medium and larger screens
 
-Add some CSS Animations to the page
 Utilize scroll to in page navigation
 
+Appropriate use of Margins and Padding==== maybe??
+
+<!-- Sticky Navbar on scroll -->
+<!-- Add some CSS Animations to the page --> Ugly submit button
 <!-- Swap one of your images for a <video> -->
+<!-- Utilizes custom font on at least one element -->
+<!-- Cards are vertically centered with the center card larger for emphasis -->
+<!-- Must use external Icon library (FontAwesome, Material Icons, etc.) --> Fighter Jet in nav bar
 
 -----Notes------
 TODO
---assets file to put images in-- dont forget about the note in the word doc about the file path to link it so it works.
-
---Issues with the in line txt coloring for icons
---Issues with linking the mdi file and operation - bypass by changing color before download add to asset file. I know it will be harder to update if I change themes. Link issue??? Ask about at the tutor sessions if I am still in the course.
-
---over flow container card- maybe make the height width fixed on the card and container
-
---Must use external Icon library (FontAwesome, Material Icons, etc.)
-
---Cards are vertically centered with the center card larger for emphasis
+fighter jet icon- the one that worked
+<i class="fa fa-fighter-jet" aria-hidden="true"></i>
