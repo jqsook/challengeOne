@@ -8,6 +8,9 @@
   --card-white: #ffffff;
   --btn-grn: #07ab80;
 }
+/* @media Rule{
+media rule for text over image during mobile
+} */
 
 body {
   border: 0;
