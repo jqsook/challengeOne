@@ -1,6 +1,11 @@
 The Card spills out of the row on medium and larger screens
-
 Appropriate use of Margins and Padding==== maybe??
+
+Reactive issues with offset li (md)- solve these 2 with push/pull?
+Reactive issue with shifting text below li (md)
+Reactive issues with img in center
+Reactive issue with text in cards(md)
+Reactive issue with top form (sm)
 
 <!-- Sticky Navbar on scroll -->
 <!-- Add some CSS Animations to the page --> Ugly submit button
@@ -13,7 +18,6 @@ Appropriate use of Margins and Padding==== maybe??
 <!-- Must use external Icon library (FontAwesome, Material Icons, etc.) --> Fighter Jet in nav bar
 
 -----Notes------
-TODO
 TO SUBMIT THE LINK IN codeworks site- not time stamp @ G-hub
 
 fighter jet icon- the one that worked

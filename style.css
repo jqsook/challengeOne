@@ -147,7 +147,11 @@ body {
 .over-card {
   margin-top: -120px;
   width: 50vw;
-  height: 30vh;
+  height: 35vh;
+}
+
+.card-text {
+  font-size: small;
 }
 
 .brd-is {
@@ -170,9 +174,9 @@ body {
 }
 
 .lg-rec {
-  width: 20vw;
-  height: 60vh;
-  margin-top: -65px;
-  display: flex;
-  align-content: center;
+  width: 20vh;
+  height: 30vh;
+  /* margin-top: -6.25rem; */
+  display: block;
+  justify-self: unset;
 }
