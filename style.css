@@ -25,9 +25,15 @@
     display: none;
   }
 }
-/* This one did not work-path not correct??? */
-@media screen and (max-width: 1000px) {
-  div.span.img-text {
+/* This one did not work- path not correct??? */
+@media screen and (max-width: 1100px) {
+  p.txt-ov-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  iframe {
     display: none;
   }
 }
@@ -142,7 +148,6 @@ body {
   margin-top: -120px;
   width: 50vw;
   height: 30vh;
-  align-content: flex-end;
 }
 
 .brd-is {
@@ -158,18 +163,16 @@ body {
 }
 
 .txt-ov-img {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
   height: 10px;
-  margin-top: -350px; */
+  /* margin-top: 6rem;
+  margin-left: -10rem; */
   color: var(--theme);
 }
 
 .lg-rec {
   width: 20vw;
-  height: 50vh;
-  display: block;
+  height: 60vh;
+  margin-top: -65px;
+  display: flex;
   align-content: center;
-  margin-top: -90px;
 }
