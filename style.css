@@ -8,8 +8,34 @@
   --card-white: #ffffff;
   --btn-grn: #07ab80;
 }
-/* @media Rule{
-media rule for text over image during mobile
+/* @media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  } */
+/* used to hid an item when the screan width is 600px or less  */
+@media screen and (max-width: 950px) {
+  iframe {
+    display: none;
+  }
+}
+/* HAHA it worked */
+
+@media screen and (max-width: 1000px) {
+  p.top-P {
+    display: none;
+  }
+}
+/* This one did not work-path not correct??? */
+@media screen and (max-width: 1000px) {
+  div.span.img-text {
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  div.crd-grn-str {
+    order-lg-1
+  }
 } */
 
 body {
@@ -17,27 +43,35 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .form-phone {
   flex-wrap: nowrap;
 }
+
 .form-chkbx {
   font-size: small;
 }
+
 .hp-form {
   border-color: var(--theme-gray);
 }
+
 .bg-theme {
   background-color: var(--theme);
 }
+
 .bg-theme-gray {
   background-color: var(--theme-gray);
 }
+
 .bg-theme-white {
   background-color: var(--theme-white);
 }
+
 .bg-card-white {
   background-color: var(--card-white);
 }
+
 .btn-card {
   background-color: var(--theme-white);
   color: var(--theme);
@@ -46,30 +80,43 @@ body {
   width: 4.75rem;
   height: 2.5rem;
 }
+
 .btn-card:hover {
   box-shadow: inset 4.75rem 0 0 0 #494735;
   color: bisque;
 }
+
 .btn-more {
   background-color: var(--theme);
   font-size: small;
   width: 18%;
 }
+
 .text-form {
   color: var(--theme);
 }
+
 .input-form {
   margin: 2rem;
 }
+
 .card-head {
   font-size: medium;
   /* custom font should go here */
 }
+
 .ftr-txt {
   color: var(--theme);
 }
+
 .tp-font {
   font-family: "Girassol", cursive;
+}
+
+@media screen and (max-width: 992px) {
+  .cta-box {
+    position: relative;
+  }
 }
 .cta-box {
   position: absolute;
@@ -79,36 +126,50 @@ body {
   height: 25vh;
   background-size: cover;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  align-content: flex-end;
 }
-/* background-image: url(https://cdn.shopify.com/s/files/1/2006/8755/articles/unnamed_07beb919-3965-4407-9e81-1ad788eac4ca_1260x.jpg?v=1596476114); */
+
 .hero-t {
   height: 30vh;
 }
+
 .cont-spill {
   height: fit-content;
 }
+
 .over-card {
   margin-top: -120px;
   width: 50vw;
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
+  height: 30vh;
+  align-content: flex-end;
 }
+
 .brd-is {
   border: none;
 }
+
 .wt-bx {
   height: 5vh;
 }
+
 .s-w-rec {
   width: 80vw;
 }
+
 .txt-ov-img {
-  display: flex;
+  /* display: flex;
+  flex-direction: row;
   justify-content: center;
   height: 10px;
-  margin-top: -350px;
+  margin-top: -350px; */
   color: var(--theme);
+}
+
+.lg-rec {
+  width: 20vw;
+  height: 50vh;
+  display: block;
+  align-content: center;
+  margin-top: -90px;
 }
